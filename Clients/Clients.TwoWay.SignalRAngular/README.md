@@ -1,3 +1,6 @@
+An example project for using SingalR in an Angular application.
+To run client-server application you should run first the Server.TwoWay.SignalRConsole and then run this Angular client. 
+
 # ClientsTwoWaySignalRAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
