@@ -67,11 +67,11 @@ namespace Server.OneWay.SignalRWebSerilog
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("CorsPolicy");
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            app.UseCors("CorsPolicy");
 
             app.UseSwagger().UseSwaggerUI(c =>
             {

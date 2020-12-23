@@ -32,9 +32,9 @@ namespace Server.TwoWay.SignalRConsole
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
-
             app.UseCors("CorsPolicy");
+
+            app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
